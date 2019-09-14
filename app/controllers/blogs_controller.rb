@@ -3,7 +3,7 @@ class BlogsController < ApplicationController
   end
 
   def index
-    @blogs = Blag.all
+    @blogs = Blog.all
   end
 
   def new
